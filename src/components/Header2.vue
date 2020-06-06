@@ -13,9 +13,8 @@
                     </p>
                     <a href="#" class="button">See Our Project</a>
                 </div>
-
+                <img  src="../assets/h2/h21.png">
             </div>
-            <img src="../assets/illustration.png">
         </div>
     </div>
 
@@ -23,7 +22,7 @@
 
 <script>
     export default {
-        name: "Top1"
+        name: "Header2"
     }
 </script>
 
@@ -31,15 +30,7 @@
 
     img {
         padding-top: 150px;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin: 0 auto;
+        width: 30vw;
     }
 
     .fon {
@@ -50,6 +41,10 @@
     .header {
 
         padding-top: 34px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
 
     .top__content {
