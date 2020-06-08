@@ -43,7 +43,7 @@
         display: block;
         width: 500px;
         height: 500px;
-        background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../assets/body3/b31.jpg");
+        background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../../assets/body3/b31.jpg");
         border-radius: 10px;
         background-size: cover;
     }
@@ -51,7 +51,7 @@
         display: block;
         width: 500px;
         height: 500px;
-        background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../assets/body3/b32.jpg");
+        background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../../assets/body3/b32.jpg");
         border-radius: 10px;
         background-size: cover;
     }

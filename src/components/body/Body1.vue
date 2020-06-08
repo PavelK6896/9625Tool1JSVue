@@ -5,7 +5,7 @@
             <h2 class="heading">What we do to help our client grow in digital era</h2>
             <div class="product-box">
                 <div class="product">
-                    <img class="product__img" src="../assets/body1/product-1.svg" alt="product photo">
+                    <img class="product__img" src="../../assets/body1/product-1.svg" alt="product photo">
                     <h3 class="heading-mini">Make Your business To Be
                         Better Famous In Internet</h3>
                     <p class="text">
@@ -13,10 +13,10 @@
                         et dolore magna aliqua.
                     </p>
                     <a class="product__link" href="">Learn more <img class="product__arrow"
-                                                                     src="../assets/body1/b14.svg" alt="arrow"></a>
+                                                                     src="../../assets/body1/b14.svg" alt="arrow"></a>
                 </div>
                 <div class="product">
-                    <img class="product__img product__img_big" src="../assets/body1/product-2.svg" alt="product photo">
+                    <img class="product__img product__img_big" src="../../assets/body1/product-2.svg" alt="product photo">
                     <h3 class="heading-mini">Make Your business To Be
                         Better Famous In Internet</h3>
                     <p class="text">
@@ -24,10 +24,10 @@
                         et dolore magna aliqua.
                     </p>
                     <a class="product__link" href="">Learn more <img class="product__arrow"
-                                                                     src="../assets/body1/b14.svg" alt="arrow"></a>
+                                                                     src="../../assets/body1/b14.svg" alt="arrow"></a>
                 </div>
                 <div class="product">
-                    <img class="product__img" src="../assets/body1/product-3.svg" alt="product photo">
+                    <img class="product__img" src="../../assets/body1/product-3.svg" alt="product photo">
                     <h3 class="heading-mini">Make Your business To Be
                         Better Famous In Internet</h3>
                     <p class="text">
@@ -35,7 +35,7 @@
                         et dolore magna aliqua.
                     </p>
                     <a class="product__link" href="">Learn more <img class="product__arrow"
-                                                                     src="../assets/body1/b14.svg" alt="arrow"></a>
+                                                                     src="../../assets/body1/b14.svg" alt="arrow"></a>
                 </div>
             </div>
         </div>

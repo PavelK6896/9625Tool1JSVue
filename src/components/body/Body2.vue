@@ -4,10 +4,10 @@
             <div class="t1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam. </div>
 
-            <img class="img1" src="../assets/body2/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg">
+            <img class="img1" src="../../assets/body2/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg">
 
             <div class="t2">Smart Home Installation</div>
-            <img class="img2" src="../assets/body2/Group.png">
+            <img class="img2" src="../../assets/body2/Group.png">
 
         </div>
     </div>

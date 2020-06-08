@@ -1,20 +1,18 @@
 <template>
     <div class="fon">
-        <div class="container">
-            <div class="header">
-                <div class="top__content">
-                    <h1 class="top__heading">New Automation
-                        Tool for Your </h1>
-                    <p class="text text_margin-bottom">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices
-                        ut
-                        mauris
-                        tellus at. Posuere sollicitudin odio tellus elit.
-                    </p>
-                    <a href="#" class="button">See Our Project</a>
-                </div>
-                <img  src="../assets/h2/h21.png">
+        <div class="header">
+            <div class="top__content">
+                <h1 class="top__heading">New Automation
+                    Tool for Your </h1>
+                <p class="text text_margin-bottom">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices
+                    ut
+                    mauris
+                    tellus at. Posuere sollicitudin odio tellus elit.
+                </p>
+                <a href="#" class="button">See Our Project</a>
             </div>
+            <img src="../../assets/h2/h21.png">
         </div>
     </div>
 
@@ -22,7 +20,7 @@
 
 <script>
     export default {
-        name: "Header2"
+        name: "HeaderHome1"
     }
 </script>
 
@@ -34,8 +32,12 @@
     }
 
     .fon {
+        clear: left;
         background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         height: 728px;
+        min-width: 100vw;
+
+
     }
 
     .header {

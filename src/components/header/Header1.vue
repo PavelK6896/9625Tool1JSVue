@@ -1,12 +1,12 @@
 <template>
     <div class="container">
         <div class="header">
-            <a href="index.html">
-                <img src="../assets/h1/h12.svg">
-            </a>
-            <a href="contacts.html">
-                <img src="../assets/h1/h11.svg">
-            </a>
+            <router-link to="/home">
+                <img src="../../assets/h1/h12.svg">
+            </router-link>
+            <router-link to="/contact">
+                <img src="../../assets/h1/h11.svg">
+            </router-link>
         </div>
     </div>
 </template>
