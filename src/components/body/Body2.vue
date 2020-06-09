@@ -59,6 +59,5 @@
 
         letter-spacing: 0.05em;
         color: #222222;
-
     }
 </style>

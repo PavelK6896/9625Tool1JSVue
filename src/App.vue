@@ -1,8 +1,8 @@
 <template>
     <div id="app">
-        <div class="container">
+
             <router-view></router-view>
-        </div>
+
     </div>
 </template>
 
@@ -18,6 +18,10 @@
     .container {
         width: 1200px;
         margin: 0 auto;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0.05em;
     }
 
 </style>

@@ -26,27 +26,24 @@
 
 <style scoped>
 
+    .fon {
+        background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+        height: 728px;
+    }
+
     img {
         padding-top: 150px;
         width: 30vw;
     }
 
-    .fon {
-        clear: left;
-        background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-        height: 728px;
-        min-width: 100vw;
-
-
-    }
-
     .header {
-
         padding-top: 34px;
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
         flex-direction: row;
+        width: 1200px;
+        margin: 0 auto;
     }
 
     .top__content {
@@ -87,6 +84,10 @@
         padding: 15px 50px;
         display: inline-block;
         text-decoration: none;
+    }
+
+    .button:hover{
+        background: #072947;
     }
 
 </style>
