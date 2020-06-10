@@ -112,6 +112,11 @@
         color: #5A98D0;
         margin-top: 30px;
         display: flex;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
     }
 
     .product__img {

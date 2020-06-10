@@ -28,11 +28,9 @@
 
 <style scoped>
 
-
     .d1 {
         display: flex;
         align-items: flex-start;
-
         color: #FFFFFF;
         font-size: 16px;
         line-height: 26px;
@@ -45,14 +43,11 @@
     }
 
     .c1 {
-
         height: 150px;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
-
+        padding-top: 50px;
     }
-
 
     .f2 {
         background: #316099;

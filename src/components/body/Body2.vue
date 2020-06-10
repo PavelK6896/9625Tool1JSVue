@@ -1,14 +1,15 @@
 <template>
-    <div class="container ">
-        <div class="img-d">
-            <div class="t1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam. </div>
-
-            <img class="img1" src="../../assets/body2/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg">
-
-            <div class="t2">Smart Home Installation</div>
-            <img class="img2" src="../../assets/body2/Group.png">
-
+    <div class="c1">
+        <div class="w1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur cumque, dignissimos dolor
+            dolores ex expedita illum incidunt, magnam magni molestiae nam nisi optio quasi, recusandae tempora tempore
+            tenetur ut.
+        </div>
+        <div class="c2">
+            <div class="d1">
+                <img class="i1" src="../../assets/body2/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg">
+                <div class="i2">Smart Home Installation</div>
+                <img class="i3" src="../../assets/body2/Group.png">
+            </div>
         </div>
     </div>
 </template>
@@ -20,44 +21,45 @@
 </script>
 
 <style scoped>
-
-    .img1{
-        position: absolute;
-        z-index: 1;
+    .w1{
+        margin: 25px auto;
+        text-align: center;
+        max-width: 750px;
+        width: 35vw;
     }
 
-    .img2{
-        position: absolute;
-        z-index: 2;
+    .c1 {
+        width: 1200px;
+        margin: 25px auto;
     }
-    .img-d{
-        position: relative;
-        overflow: hidden;
+
+    .c2{
         height: 500px;
+    }
+
+
+    .d1 {
         display: flex;
         justify-content: center;
-        text-align: center;
-
-
+        position: relative;
     }
 
-    .t2{
+    .i1 {
+        border-radius: 25px;
+    }
+
+    .i2 {
         position: absolute;
-        z-index: 3;
+        right: 250px;
+        padding-top: 100px;
+        font-size: 32px;
+        line-height: 46px;
+        color: #FFFFFF;
     }
 
-
-
-
-
-    .t1{
-        max-width: 500px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-
-        letter-spacing: 0.05em;
-        color: #222222;
+    .i3 {
+        position: absolute;
+        left: 0;
     }
+
 </style>

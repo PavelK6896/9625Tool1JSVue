@@ -32,8 +32,9 @@
     }
 
     img {
-        padding-top: 150px;
-        width: 30vw;
+        padding-top: 120px;
+        width: 600px;
+
     }
 
     .header {

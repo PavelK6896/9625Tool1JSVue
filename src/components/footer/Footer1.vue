@@ -24,8 +24,17 @@
 
     .f1 {
         background-color: #316099;
-        height: 391px;
+        height: 390px;
+        margin-top: 50px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .c1 {
+        height: 391px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .p2{
@@ -56,13 +65,7 @@
 
     }
 
-    .c1 {
-        height: 391px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+
 
 
 
