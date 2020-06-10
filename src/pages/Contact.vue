@@ -2,8 +2,10 @@
 
     <div class="body">
         <div class="wrapper">
-        <Header1></Header1>
-        <HeaderContact1></HeaderContact1>
+            <Header1></Header1>
+            <HeaderContact1></HeaderContact1>
+            <BodyContact1></BodyContact1>
+
 
         </div>
         <div class="footer">
@@ -15,7 +17,6 @@
     </div>
 
 
-
 </template>
 
 <script>
@@ -24,23 +25,25 @@
     import Footer1 from "@/components/footer/Footer1";
     import Footer3 from "@/components/footer/Footer3";
     import FooterContact1 from "@/components/footer/FooterContact1";
+    import BodyContact1 from "@/components/body/body1contact/BodyContact1";
 
     export default {
         name: "Contact",
-        components: {FooterContact1, Footer3, Footer1, HeaderContact1, Header1}
+        components: {BodyContact1, FooterContact1, Footer3, Footer1, HeaderContact1, Header1}
     }
 </script>
 
 <style scoped>
 
 
-    .body{
+    .body {
         display: flex;
         flex-direction: column;
         height: 100vh;
 
     }
-    .wrapper{
+
+    .wrapper {
         flex-grow: 1;
     }
 
