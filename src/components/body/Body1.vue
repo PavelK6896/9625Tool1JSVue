@@ -54,10 +54,6 @@
 
 <style scoped>
 
-
-
-
-
     .text {
         font-size: 16px;
         line-height: 26px;
@@ -65,7 +61,6 @@
         color: #1F3F68;
         opacity: 0.6;
     }
-
 
     .heading {
         font-weight: 300;

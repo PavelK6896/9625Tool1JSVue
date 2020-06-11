@@ -25,12 +25,10 @@
 </script>
 
 <style scoped>
-
     .fon {
         background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         height: 728px;
     }
-
     img {
         padding-top: 120px;
         width: 600px;
@@ -90,5 +88,4 @@
     .button:hover{
         background: #072947;
     }
-
 </style>

@@ -1,21 +1,21 @@
 <template>
-
-    <div>
-        <Header1></Header1>
-        <HeaderHome1></HeaderHome1>
-        <Body1></Body1>
-        <Body2></Body2>
-        <Body3></Body3>
-        <Footer1></Footer1>
-        <Footer2></Footer2>
-        <Footer3></Footer3>
-
+    <div class="body">
+        <div class="wrapper">
+            <Header1></Header1>
+            <HeaderHome1></HeaderHome1>
+            <Body1></Body1>
+            <Body2></Body2>
+            <Body3></Body3>
+        </div>
+        <div class="footer">
+            <Footer1></Footer1>
+            <Footer2></Footer2>
+            <Footer3></Footer3>
+        </div>
     </div>
-
 </template>
 
 <script>
-
     import Header1 from "@/components/header/Header1";
     import HeaderHome1 from "@/components/header/HeaderHome1";
     import Body1 from "@/components/body/Body1";
@@ -29,10 +29,8 @@
         name: "Home",
         components: {Footer3, Footer2, Footer1, Body3, Body2, Body1, HeaderHome1, Header1}
     }
-
 </script>
 
 <style scoped>
-
 
 </style>

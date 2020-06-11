@@ -1,8 +1,6 @@
 <template>
     <div id="app">
-
             <router-view></router-view>
-
     </div>
 </template>
 
@@ -15,6 +13,11 @@
 
 <style>
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     .container {
         width: 1200px;
         margin: 0 auto;
@@ -22,6 +25,16 @@
         font-style: normal;
         font-weight: normal;
         letter-spacing: 0.05em;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .wrapper {
+        flex-grow: 1;
     }
 
 </style>

@@ -1,7 +1,6 @@
 <template>
     <div class="f1">
         <div class="c1 container">
-
             <div>
                 <div class="d1">
                     <img src="./f2c1.svg">
@@ -10,11 +9,8 @@
                 <div class="a1">A. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </div>
                 <div class="a1">T. 22222222222</div>
                 <div class="a1">E @@@@@@@222</div>
-
-
             </div>
             <div>
-
                 <ul class="u1">
                     <li class="l1 t1">About US</li>
                     <li class="l1">1class</li>
@@ -22,7 +18,6 @@
                     <li class="l1">3class</li>
                     <li class="l1">4class</li>
                 </ul>
-
             </div>
             <div>
                 <ul class="u1">
@@ -32,10 +27,7 @@
                     <li class="l1">3 class</li>
                     <li class="l1">4 class</li>
                 </ul>
-
             </div>
-
-
         </div>
     </div>
 
@@ -60,6 +52,7 @@
 
     .l1:hover {
         color: #a169d0;
+        cursor: pointer;
     }
 
     .d1 {
@@ -95,6 +88,5 @@
         align-items: center;
         color: #FFFFFF;
     }
-
 
 </style>
