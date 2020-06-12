@@ -1,5 +1,5 @@
 <template>
-    <div class="c1">
+    <div class="c1 container">
         <div class="w1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur cumque, dignissimos dolor
             dolores ex expedita illum incidunt, magnam magni molestiae nam nisi optio quasi, recusandae tempora tempore
             tenetur ut.
@@ -24,12 +24,9 @@
     .w1{
         margin: 25px auto;
         text-align: center;
-        max-width: 750px;
-        width: 35vw;
     }
 
     .c1 {
-        width: 1200px;
         margin: 25px auto;
     }
 
@@ -46,6 +43,7 @@
 
     .i1 {
         border-radius: 25px;
+        width: 100%;
     }
 
     .i2 {
@@ -60,6 +58,15 @@
     .i3 {
         position: absolute;
         left: 0;
+
     }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+    }
+
 
 </style>

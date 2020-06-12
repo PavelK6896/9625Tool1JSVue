@@ -1,6 +1,6 @@
 <template>
-    <div class="f2">
-        <div class="container c1">
+    <div class="fon">
+        <div class="container footer2">
 
             <div class="d1">
                 A.
@@ -14,7 +14,6 @@
                 E.
                 <div class="a1">hello.afrian@gmail.com</div>
             </div>
-
 
         </div>
     </div>
@@ -38,20 +37,33 @@
 
     .a1 {
         max-width: 300px;
-        width: 300px;
         margin-left: 30px;
     }
 
-    .c1 {
-        height: 150px;
+    .footer2 {
+        max-height: 150px;
         display: flex;
         justify-content: flex-start;
         padding-top: 50px;
     }
 
-    .f2 {
+    .fon {
         background: #316099;
-        height: 150px;
+        max-height: 150px;
+    }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+        .d1{
+            padding-bottom: 5px;
+        }
+        .footer2 {
+            flex-direction: column;
+            padding: 2rem 3rem;
+        }
     }
 
 </style>

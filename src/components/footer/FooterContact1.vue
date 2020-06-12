@@ -6,9 +6,23 @@
                     <img src="./f2c1.svg">
                     <div class="t2"> Afrianska</div>
                 </div>
-                <div class="a1">A. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </div>
-                <div class="a1">T. 22222222222</div>
-                <div class="a1">E @@@@@@@222</div>
+
+
+
+                <div class="w1">
+                    A.
+                    <div class="w2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                </div>
+                <div class="w1">
+                    T.
+                    <div class="w2">+62-812-7313-4321</div>
+                </div>
+                <div class="w1">
+                    E.
+                    <div class="w2">hello.afrian@gmail.com</div>
+                </div>
+
+
             </div>
             <div>
                 <ul class="u1">
@@ -40,10 +54,18 @@
 </script>
 
 <style scoped>
-    
-    .a1{
-        padding: 15px;
+
+    .w2{
+        max-width: 300px;
+        margin-left: 15px;
     }
+
+    .w1{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+
 
     .l1 {
         list-style-type: none;
@@ -77,16 +99,32 @@
 
     .f1 {
         background-color: #316099;
-        height: 480px;
+        max-height: 480px;
     }
 
     .c1 {
-        height: 480px;
+        max-height: 480px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         color: #FFFFFF;
+    }
+
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+        .d1{
+            display: none;
+        }
+
+        .u1{
+            display: none;
+        }
+
     }
 
 </style>

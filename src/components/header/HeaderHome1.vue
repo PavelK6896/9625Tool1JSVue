@@ -1,6 +1,6 @@
 <template>
     <div class="fon">
-        <div class="header">
+        <div class="header container">
             <div class="top__content">
                 <h1 class="top__heading">New Automation
                     Tool for Your </h1>
@@ -12,7 +12,6 @@
                 </p>
                 <a href="#" class="button">See Our Project</a>
             </div>
-            <img src="../../assets/h2/h21.png">
         </div>
     </div>
 
@@ -25,14 +24,10 @@
 </script>
 
 <style scoped>
+
     .fon {
         background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-        height: 728px;
-    }
-    img {
-        padding-top: 120px;
-        width: 600px;
-
+        max-height: 730px;
     }
 
     .header {
@@ -41,13 +36,16 @@
         justify-content: space-between;
         flex-wrap: nowrap;
         flex-direction: row;
-        width: 1200px;
-        margin: 0 auto;
+        background-image:  url("../../assets/h2/h21.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        height: 50%;
+        background-size: 40%;
     }
 
     .top__content {
-        width: 504px;
-        margin-top: 107px;
+        max-width: 35rem;
+        margin-top: 10px;
         text-align: start;
     }
 
@@ -65,10 +63,11 @@
         letter-spacing: 0.05em;
         color: #1F3F68;
         opacity: 0.6;
+        max-width: 25rem;
     }
 
     .text_margin-bottom {
-        margin-bottom: 71px;
+        margin-bottom: 70px;
     }
 
     .button {
@@ -88,4 +87,35 @@
     .button:hover{
         background: #072947;
     }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+        .header{
+            background-image: none;
+        }
+
+        .top__content{
+            max-width: 100%;
+            text-align: center;
+        }
+        .text{
+            max-width: 100%;
+            padding: 0 5rem;
+        }
+
+        .text_margin-bottom {
+            margin-bottom: 30px;
+        }
+
+        .button{
+            margin-bottom: 40px;
+            padding: 5px;
+        }
+
+    }
+
+
 </style>

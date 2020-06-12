@@ -2,10 +2,10 @@
     <div class="container">
         <div class="header">
             <router-link to="/home">
-                <img class="s1" src="../../assets/h1/h12.svg">
+                <img class="svg1" src="../../assets/h1/h12.svg">
             </router-link>
             <router-link to="/contact">
-                <img class="s1" src="../../assets/h1/h11.svg">
+                <img class="svg1" src="../../assets/h1/h11.svg">
             </router-link>
         </div>
     </div>
@@ -18,6 +18,7 @@
 </script>
 
 <style scoped>
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -26,13 +27,21 @@
         padding-bottom: 34px;
     }
 
-    .s1{
-
-    }
-    .s1:hover{
+    .svg1:hover{
 
         background: #5A98D0;
-        border-radius: 15px;
+        border-radius: 50px;
 
+    }
+
+    @media (max-width: 1020px) {
+        .svg1{
+            padding: 0 30px;
+        }
+    }
+    @media (max-width: 660px) {
+        .svg1{
+            padding: 0 20px;
+        }
     }
 </style>

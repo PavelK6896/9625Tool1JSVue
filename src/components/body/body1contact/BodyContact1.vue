@@ -12,14 +12,14 @@
             <div class="l4 m2"><img class="mr1" src="./b1c3.svg">hello.afrian@gmail.com</div>
         </div>
         <div class="d2">
-            <form action="contact1">
+            <form class="form1" action="contact1">
                 <div class="l1">SEND US MESSAGE</div>
                 <div class="l2 m50">Full Name</div>
                 <input class="i1 t2" type="text" placeholder="Your Name"/>
                 <div class="l2 m30">Email</div>
                 <input  class="i1 t2" type="text" placeholder="Your Email"/>
                 <div class="l2 m30">Email</div>
-                <textarea class="i1 t1" type="text" placeholder="Your Message" ></textarea>
+                <textarea class="i1 textarea1" type="text" placeholder="Your Message" ></textarea>
                 <button class="bt1 m70" type="submit">submit</button>
             </form>
 
@@ -50,17 +50,18 @@
         margin-bottom: 10px;
     }
 
-    .t1{
+    .textarea1{
         display: flex;
         flex: auto auto initial;
-        width: 428px;
-        height: 144px;
+        width: 100%;
+        max-width: 430px;
+        max-height: 144px;
         padding: 40px;
-
     }
 
     .t2{
-        width: 430px;
+        width: 100%;
+        max-width: 430px;
         height: 70px;
     }
 
@@ -169,5 +170,45 @@
     .bt1:hover{
         background: #072947;
     }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+        .c1{
+            flex-direction: column;
+          align-items: center;
+        }
+
+        .d2{
+            margin-top: 2rem;
+            max-width: 95%;
+        }
+
+        .form1{
+            max-width: 80%;
+        }
+
+        .bt1 {
+            padding: 5px 45px;
+            margin-left:  15vw;
+        }
+
+        .t2{
+            padding: 20px;
+        }
+
+
+        .textarea1{
+            width: 100%;
+            max-height: 144px;
+            padding: 20px;
+        }
+
+
+
+    }
+
 
 </style>

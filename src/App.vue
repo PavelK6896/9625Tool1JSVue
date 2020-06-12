@@ -19,7 +19,7 @@
     }
 
     .container {
-        width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
         font-family: Roboto;
         font-style: normal;
@@ -36,5 +36,8 @@
     .wrapper {
         flex-grow: 1;
     }
+    
+
+    
 
 </style>

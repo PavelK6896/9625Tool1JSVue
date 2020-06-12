@@ -1,14 +1,14 @@
 <template>
-    <div class="f1">
-        <div class="c1 container">
-            <div class="e1">
+    <div class="fon">
+        <div class="footer1 container">
+            <div class="text1">
                 <div class="p1">Intersted to woek with our team?</div>
                 <div class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam.</div>
             </div>
-            <div class="e2">
-                <button class="bt1">Let’s Talk</button>
+            <div>
+                <button class="btn1">Let’s Talk</button>
             </div>
         </div>
     </div>
@@ -22,15 +22,15 @@
 
 <style scoped>
 
-    .f1 {
+    .fon {
         background-color: #316099;
-        height: 390px;
+        max-height: 390px;
         margin-top: 50px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     }
 
-    .c1 {
-        height: 391px;
+    .footer1 {
+        max-height: 390px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -39,7 +39,7 @@
 
     .p2{
         margin-top: 32px;
-        width: 495px;
+        max-width: 30rem;
         color: #FFFFFF;
         font-size: 16px;
         line-height: 26px;
@@ -50,34 +50,55 @@
 
     .p1{
         color: #FFFFFF;
-        width: 340px;
         font-size: 36px;
         line-height: 46px;
     }
 
-    .e1{
+    .text1{
         display: flex;
         flex-direction: column;
         justify-content: center;
 
     }
-    .e2{
-
-    }
 
 
-
-
-
-    .bt1 {
+    .btn1 {
         background: #5A98D0;
         color: #ffffff;
         padding: 15px 80px;
         border: 0;
     }
 
-    .bt1:hover{
+    .btn1:hover{
         background: #072947;
+    }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
+        .p1{
+            margin-top: 2rem;
+        }
+
+
+
+        .footer1{
+            flex-direction: column;
+        }
+        .text1{
+            max-width: 100%;
+            padding: 0 5rem;
+            text-align: center;
+
+        }
+        .btn1{
+            padding: 5px;
+            margin: 3rem 0;
+        }
+
+
     }
 
 

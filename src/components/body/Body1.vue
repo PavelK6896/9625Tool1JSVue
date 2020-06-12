@@ -54,6 +54,9 @@
 
 <style scoped>
 
+
+
+
     .text {
         font-size: 16px;
         line-height: 26px;
@@ -126,5 +129,26 @@
     .product__arrow {
         margin-left: 20px;
     }
+
+
+
+
+    @media (max-width: 1020px) {
+
+        .product-box{
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .product{
+            margin-bottom: 30px;
+        }
+
+    }
+
+    @media (max-width: 660px) {
+
+    }
+
 
 </style>

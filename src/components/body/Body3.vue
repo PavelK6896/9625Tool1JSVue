@@ -21,7 +21,6 @@
 <style scoped>
 
     .g1 {
-        width: 1200px;
         margin: 25px auto;
         display: flex;
         justify-content: space-around;
@@ -40,7 +39,7 @@
 
     .i1 {
         display: block;
-        width: 500px;
+        /*width: 500px;*/
         height: 500px;
         background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../../assets/body3/b31.jpg");
         border-radius: 25px;
@@ -49,11 +48,18 @@
 
     .i2 {
         display: block;
-        width: 500px;
+        /*width: 500px;*/
         height: 500px;
         background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../../assets/body3/b32.jpg");
         border-radius: 25px;
         background-size: cover;
+    }
+
+    @media (max-width: 1020px) {
+
+    }
+    @media (max-width: 660px) {
+
     }
 
 
