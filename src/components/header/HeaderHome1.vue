@@ -82,6 +82,7 @@
         padding: 15px 50px;
         display: inline-block;
         text-decoration: none;
+        margin-bottom: 10rem;
     }
 
     .button:hover{
@@ -89,6 +90,18 @@
     }
 
     @media (max-width: 1020px) {
+
+        .header{
+            padding: 0 30px;
+            background-position: right 3rem bottom 3rem;
+
+        }
+
+        .button{
+            margin-bottom: 10rem;
+            padding: 12px 40px;
+        }
+
 
     }
     @media (max-width: 660px) {

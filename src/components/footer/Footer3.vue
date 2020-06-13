@@ -34,12 +34,16 @@
     }
 
     @media (max-width: 1020px) {
+        .c1{
+            padding: 0 3rem;
+        }
+
+
 
     }
     @media (max-width: 660px) {
         .c1{
             text-align: center;
-
         }
 
     }

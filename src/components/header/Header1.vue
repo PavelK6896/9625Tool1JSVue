@@ -27,11 +27,12 @@
         padding-bottom: 34px;
     }
 
+    .svg1{
+        border-radius: 30px;
+    }
+
     .svg1:hover{
-
         background: #5A98D0;
-        border-radius: 50px;
-
     }
 
     @media (max-width: 1020px) {

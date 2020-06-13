@@ -93,7 +93,7 @@
     }
 
     .product {
-        width: 330px;
+        max-width: 330px;
         background: #FFFFFF;
         box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
         border-radius: 10px;
@@ -144,9 +144,17 @@
             margin-bottom: 30px;
         }
 
+        .heading{
+            padding: 0 7rem;
+        }
+
     }
 
     @media (max-width: 660px) {
+
+        .heading{
+            padding: 0 10px;
+        }
 
     }
 

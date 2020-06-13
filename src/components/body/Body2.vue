@@ -31,7 +31,7 @@
     }
 
     .c2{
-        height: 500px;
+        max-height: 50vw;
     }
 
 
@@ -48,23 +48,60 @@
 
     .i2 {
         position: absolute;
-        right: 250px;
-        padding-top: 100px;
+        right: 200px;
+        padding-top: 60px;
         font-size: 32px;
         line-height: 46px;
         color: #FFFFFF;
+
     }
 
     .i3 {
         position: absolute;
         left: 0;
-
+        bottom: 0;
+        max-height: 40vw;
     }
 
     @media (max-width: 1020px) {
 
+        .w1{
+            padding: 0 10rem;
+        }
+
+        .i2 {
+            right: 40px;
+            padding: 20px;
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+        }
+
+        .d1 {
+            padding: 0 5px;
+        }
+
+
     }
     @media (max-width: 660px) {
+
+        .w1{
+            padding: 15px;
+        }
+
+        .i2 {
+            right: 20px;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+        }
+
+        .d1 {
+            padding: 0 10px;
+        }
+
+
 
     }
 

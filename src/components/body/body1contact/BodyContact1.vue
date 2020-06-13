@@ -17,9 +17,9 @@
                 <div class="l2 m50">Full Name</div>
                 <input class="i1 t2" type="text" placeholder="Your Name"/>
                 <div class="l2 m30">Email</div>
-                <input  class="i1 t2" type="text" placeholder="Your Email"/>
+                <input class="i1 t2" type="text" placeholder="Your Email"/>
                 <div class="l2 m30">Email</div>
-                <textarea class="i1 textarea1" type="text" placeholder="Your Message" ></textarea>
+                <textarea class="i1 textarea1" type="text" placeholder="Your Message"></textarea>
                 <button class="bt1 m70" type="submit">submit</button>
             </form>
 
@@ -36,21 +36,22 @@
 
 <style scoped>
 
-    .m70{
+    .m70 {
         margin-top: 70px;
     }
-    .m50{
+
+    .m50 {
         margin-top: 50px;
         margin-bottom: 10px;
 
     }
 
-    .m30{
+    .m30 {
         margin-top: 30px;
         margin-bottom: 10px;
     }
 
-    .textarea1{
+    .textarea1 {
         display: flex;
         flex: auto auto initial;
         width: 100%;
@@ -59,13 +60,13 @@
         padding: 40px;
     }
 
-    .t2{
+    .t2 {
         width: 100%;
         max-width: 430px;
         height: 70px;
     }
 
-    .i1{
+    .i1 {
 
         font-size: 20px;
         opacity: 0.6;
@@ -78,20 +79,20 @@
     }
 
 
-    .mr1{
+    .mr1 {
         margin-right: 20px;
     }
 
-    .m2{
+    .m2 {
         margin-top: 15px;
     }
 
-    .m1{
+    .m1 {
         margin-top: 25px;
         max-width: 300px;
     }
 
-    .l4{
+    .l4 {
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 0.05em;
@@ -99,7 +100,7 @@
         opacity: 0.6;
     }
 
-    .l3{
+    .l3 {
         font-weight: 300;
         font-size: 16px;
         line-height: 26px;
@@ -108,7 +109,7 @@
         opacity: 0.6;
     }
 
-    .l2{
+    .l2 {
         font-weight: 300;
         font-size: 16px;
         line-height: 26px;
@@ -117,7 +118,7 @@
         opacity: 0.6;
     }
 
-    .l1{
+    .l1 {
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
@@ -126,14 +127,14 @@
         margin-top: 40px;
     }
 
-    .c1{
+    .c1 {
         margin-top: 50px;
         margin-bottom: 50px;
         display: flex;
         justify-content: space-between;
     }
 
-    .d1{
+    .d1 {
 
         display: flex;
         flex-direction: column;
@@ -141,7 +142,7 @@
         align-items: flex-start;
     }
 
-    .d2{
+    .d2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -167,45 +168,54 @@
         color: #FFFFFF;
     }
 
-    .bt1:hover{
+    .bt1:hover {
         background: #072947;
     }
 
     @media (max-width: 1020px) {
-
-    }
-    @media (max-width: 660px) {
-
-        .c1{
+        .c1 {
             flex-direction: column;
-          align-items: center;
+            align-items: center;
         }
 
-        .d2{
+        .d2 {
             margin-top: 2rem;
             max-width: 95%;
         }
 
-        .form1{
+    }
+
+    @media (max-width: 660px) {
+
+        .c1 {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .d2 {
+            margin-top: 2rem;
+            max-width: 95%;
+        }
+
+        .form1 {
             max-width: 80%;
         }
 
         .bt1 {
             padding: 5px 45px;
-            margin-left:  15vw;
+            margin-left: 15vw;
         }
 
-        .t2{
+        .t2 {
             padding: 20px;
         }
 
 
-        .textarea1{
+        .textarea1 {
             width: 100%;
             max-height: 144px;
             padding: 20px;
         }
-
 
 
     }

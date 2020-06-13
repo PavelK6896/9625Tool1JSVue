@@ -1,7 +1,6 @@
 <template>
     <div class="fon">
         <div class="container footer2">
-
             <div class="d1">
                 A.
                 <div class="a1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -53,10 +52,15 @@
     }
 
     @media (max-width: 1020px) {
-
+        .footer2 {
+            flex-direction: column;
+            padding: 2rem 3rem;
+        }
+        .a1 {
+            max-width: 90%;
+        }
     }
     @media (max-width: 660px) {
-
         .d1{
             padding-bottom: 5px;
         }

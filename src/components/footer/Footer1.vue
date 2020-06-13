@@ -35,6 +35,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 3rem 0;
     }
 
     .p2{
@@ -46,8 +47,6 @@
         opacity: 0.6;
     }
 
-
-
     .p1{
         color: #FFFFFF;
         font-size: 36px;
@@ -58,10 +57,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-
     }
-
-
     .btn1 {
         background: #5A98D0;
         color: #ffffff;
@@ -72,18 +68,15 @@
     .btn1:hover{
         background: #072947;
     }
-
     @media (max-width: 1020px) {
-
+        .footer1{
+            padding: 3rem 5rem;
+        }
     }
     @media (max-width: 660px) {
-
         .p1{
             margin-top: 2rem;
         }
-
-
-
         .footer1{
             flex-direction: column;
         }
@@ -91,15 +84,10 @@
             max-width: 100%;
             padding: 0 5rem;
             text-align: center;
-
         }
         .btn1{
             padding: 5px;
             margin: 3rem 0;
         }
-
-
     }
-
-
 </style>

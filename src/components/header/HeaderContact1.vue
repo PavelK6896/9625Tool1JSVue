@@ -39,8 +39,10 @@
 
     .fon {
         background-image: url("./h2c1.jpg");
+        background-repeat: no-repeat;
         background-size: 100%;
         height: 200px;
+
     }
 
     .container1 {
@@ -53,6 +55,14 @@
 
     @media (max-width: 1020px) {
 
+        .fon {
+            background-size: auto;
+        }
+
+        .t2{
+            padding: 0 7rem;
+            margin-bottom: 20px;
+        }
     }
     @media (max-width: 660px) {
 
